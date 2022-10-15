@@ -1,3 +1,17 @@
+@font-face {
+    font-family: thicccboi;
+    src: url(./Webfont/THICCCBOI-Regular.woff2) format("woff2");
+}
+body {
+    font-family: thicccboi, Tahoma;
+}
+
+button{
+    font-family: thicccboi, Tahoma;
+    cursor: pointer;
+
+}
+
 *, body{
     /* box-sizing: border-box; */
     margin: 0;
@@ -10,7 +24,7 @@ header{
     display: grid;
     padding: 0 5rem ;
     margin: 0;
-    grid-template-columns: 1fr 1.3fr 1.5fr;
+    grid-template-columns: 1fr 1.5fr 1.5fr;
     grid-gap: 12rem;
     height: 200px;
     align-items: center;
@@ -19,6 +33,10 @@ header{
 .nav{
     display: flex;
     justify-content: space-evenly;
+    gap: 2rem;
+}
+.nav p{
+    cursor: pointer;
 }
 .sign{
     display: flex;
