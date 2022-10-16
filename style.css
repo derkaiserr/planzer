@@ -4,6 +4,7 @@
 }
 body {
     font-family: thicccboi, Tahoma;
+    min-width: 80rem;
 }
 
 button{
@@ -13,7 +14,6 @@ button{
 }
 
 *, body{
-    /* box-sizing: border-box; */
     margin: 0;
 }
 
@@ -34,6 +34,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
+    width: 19rem;
 }
 .nav p{
     cursor: pointer;
@@ -56,8 +57,6 @@ height: 27px;
 
 .get-start{
     display: flex;
-/* flex-direction: row; */
-/* align-items: flex-start; */
 padding: 10px 24px 10px 32px;
 gap: 5px;
 width: fit-content;
@@ -95,7 +94,7 @@ margin: auto;
 
 .let-you{
     font-weight: 500;
-font-size: 18px;
+font-size: 16px;
 line-height: 30px;
 max-width: 700px;
 margin: auto;
@@ -141,7 +140,6 @@ padding: 0 0 2rem;
     background-position: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    /* margin: auto; */
     justify-items: center;
     grid-column-gap: -5rem;
     grid-row-gap: 3rem;
@@ -187,10 +185,9 @@ border-radius: 20px;
 font-size: 40px;
 line-height: 56px;
 width: 537px;
-/* margin: 8rem 8rem 2rem; */
-
 color: #0B0A33;
 }
+
 .fourth > div{
     margin: 8rem 4rem 2rem 8rem;
     width: 40%;
@@ -240,8 +237,8 @@ color: #0B0A33;
 }
 
 .four-b > div{
-    /* padding: 7rem 0; */
     width: 100%;
+    
 }
 
 .conv{
@@ -258,7 +255,7 @@ color: #0B0A33;
     align-items: center;
     padding: 60px;
     gap: 7px;
-
+    text-align: center;
     width: 83px;
     height: 65px;
 
@@ -332,7 +329,6 @@ color: #596AFF ;
     position: absolute;
     width: 68rem;
     margin: 7rem 3rem;
-    /* left: 3rem; */
     z-index: 4;
    
 }
@@ -373,7 +369,6 @@ color: #596AFF ;
 
 .seven > div{
     display: flex;
-    /* width: 50rem; */
     margin: 3rem auto;
     justify-content: center;
     background-image: url(./Frame\ 61.png);
@@ -404,7 +399,6 @@ border-radius: 24px;
     font-weight: 600;
 font-size: 22px;
 line-height: 32px;
-/* identical to box height, or 145% */
 
 
 color: #0B0A33;
@@ -481,7 +475,6 @@ color: #7A7D9C;
     grid-template-columns: 1fr 1fr ;
     align-items: center;
     gap: 2rem;
-    /* margin:0 0 0rem 0; */
     
 }
 .second-flex{
@@ -493,7 +486,6 @@ color: #7A7D9C;
 
 .second-flex > div > div{
     line-height: 1.5rem;
-    /* padding: 2rem 0.8rem; */
 }
 
 .firstt{
@@ -503,7 +495,6 @@ font-size: 19.2055px;
 
 .purp{
     color: #5335D9;
-    /* padding: 0 0 1.6rem; */
 }
 
 
@@ -650,7 +641,6 @@ footer > div{
 }
 
 footer > div > a{
-    /* padding: 1rem; */
     width: 60px;
     height: 60px;
     align-items: center;
